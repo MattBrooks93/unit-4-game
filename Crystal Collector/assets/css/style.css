@@ -1,0 +1,54 @@
+
+body {
+	background-image: url("../images/background.png");
+}
+.crystals{
+	display: flex;
+	justify-content: space-around;
+}
+
+.crystal{
+	height:200px;
+	width: 200px;
+}
+
+.crystal:nth-child(1){
+	background-image: url(../images/red.png);
+	background-size: cover;
+}
+
+.crystal:nth-child(2){
+	background-image: url(../images/blue.png);
+	background-size: cover;
+}
+
+.crystal:nth-child(3){
+	background-image: url(../images/green.png);
+	background-size: cover;
+}
+
+.crystal:nth-child(4){
+	background-image: url(../images/orange.png);
+	background-size: cover;
+}
+
+#result{
+	display: flex;
+	justify-content: center;
+	color: aqua;
+}
+
+#winlose, #wins, #losses, #addTo, #info {
+	display: flex;
+	justify-content: center;
+	color: aqua;
+}
+
+.score {
+	background-color: black;
+}
+
+#result, #info {
+	background-color: black;
+}
+
